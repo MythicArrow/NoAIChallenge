@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+
+void logFunc(double n){
+  std::cout << log10(1 + 1/n) << std::endl;
+ 
+}
+int main() 
+{
+    logFunc(10);
+    return 0;
+}
