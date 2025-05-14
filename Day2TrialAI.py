@@ -1,5 +1,5 @@
 import jax
-import flax as nnx
+from flax import nnx
 import jax.numpy as jnp
 jax.random_seed(69)
 def softplus(x):
