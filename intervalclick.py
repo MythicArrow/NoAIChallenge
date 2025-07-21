@@ -5,5 +5,5 @@ def proc():
   pygui.click()
   time.sleep(10)
 
-if name == __main__:
+if _name_ == "__main__":
   proc()
