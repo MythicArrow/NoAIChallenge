@@ -1,9 +1,9 @@
 import pyautogui as pygui
 import time
 
-def proc():
+def proc(t):
   pygui.click()
-  time.sleep(10)
+  time.sleep(t)
 
 if _name_ == "__main__":
   proc()
