@@ -1,11 +1,14 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-public void Lisht(float x;){
-  return x * tanh(x);
-  
+
+// Function that multiplies x by tanh(x)
+float Lisht(float x) {
+    return x * tanh(x);
 }
-int main(){
-  Lisht(5.5); //Trial
-  return 0;
+
+int main() {
+    float result = Lisht(5.5f); // Call Lisht with 5.5
+    cout << "Result: " << result << endl; // Output the result
+    return 0;
 }
